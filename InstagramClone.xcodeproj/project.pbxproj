@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		940F3FE32206242E00FF9725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F3FE22206242E00FF9725 /* AppDelegate.swift */; };
-		940F3FE52206242E00FF9725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F3FE42206242E00FF9725 /* ViewController.swift */; };
-		940F3FE82206242E00FF9725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F3FE62206242E00FF9725 /* Main.storyboard */; };
-		940F3FEA2206243000FF9725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940F3FE92206243000FF9725 /* Assets.xcassets */; };
 		940F3FED2206243000FF9725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F3FEB2206243000FF9725 /* LaunchScreen.storyboard */; };
+		940F3FF52206280200FF9725 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F3FF42206280200FF9725 /* Start.storyboard */; };
+		940F3FF72206814900FF9725 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F3FF62206814900FF9725 /* SignInViewController.swift */; };
+		940F3FF92206972E00FF9725 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F3FF82206972E00FF9725 /* SignUpViewController.swift */; };
+		94A1D3ED22069E1C00EDF656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A1D3EC22069E1C00EDF656 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		940F3FDF2206242E00FF9725 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940F3FE22206242E00FF9725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		940F3FE42206242E00FF9725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		940F3FE72206242E00FF9725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		940F3FE92206243000FF9725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940F3FEC2206243000FF9725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		940F3FEE2206243000FF9725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940F3FF42206280200FF9725 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		940F3FF62206814900FF9725 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		940F3FF82206972E00FF9725 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		94A1D3EC22069E1C00EDF656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				940F3FE22206242E00FF9725 /* AppDelegate.swift */,
-				940F3FE42206242E00FF9725 /* ViewController.swift */,
-				940F3FE62206242E00FF9725 /* Main.storyboard */,
-				940F3FE92206243000FF9725 /* Assets.xcassets */,
+				940F3FF62206814900FF9725 /* SignInViewController.swift */,
+				940F3FF42206280200FF9725 /* Start.storyboard */,
+				940F3FF82206972E00FF9725 /* SignUpViewController.swift */,
 				940F3FEB2206243000FF9725 /* LaunchScreen.storyboard */,
 				940F3FEE2206243000FF9725 /* Info.plist */,
+				94A1D3EC22069E1C00EDF656 /* Assets.xcassets */,
 			);
 			path = InstagramClone;
 			sourceTree = "<group>";
@@ -123,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				940F3FED2206243000FF9725 /* LaunchScreen.storyboard in Resources */,
-				940F3FEA2206243000FF9725 /* Assets.xcassets in Resources */,
-				940F3FE82206242E00FF9725 /* Main.storyboard in Resources */,
+				94A1D3ED22069E1C00EDF656 /* Assets.xcassets in Resources */,
+				940F3FF52206280200FF9725 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940F3FE52206242E00FF9725 /* ViewController.swift in Sources */,
+				940F3FF92206972E00FF9725 /* SignUpViewController.swift in Sources */,
+				940F3FF72206814900FF9725 /* SignInViewController.swift in Sources */,
 				940F3FE32206242E00FF9725 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		940F3FE62206242E00FF9725 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				940F3FE72206242E00FF9725 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		940F3FEB2206243000FF9725 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +277,6 @@
 		940F3FF22206243000FF9725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = InstagramClone/Info.plist;
@@ -299,7 +294,6 @@
 		940F3FF32206243000FF9725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = InstagramClone/Info.plist;
